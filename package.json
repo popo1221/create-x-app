@@ -1,0 +1,35 @@
+{
+  "name": "create-x-app",
+  "version": "1.0.0",
+  "description": "A app creator.",
+  "main": "index.js",
+  "scripts": {
+    "precommit": "lint-staged"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/popo1221/create-x-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/popo1221/create-x-app/issues"
+  },
+  "homepage": "https://github.com/popo1221/create-x-app#readme",
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^15.0.2",
+    "eslint-plugin-import": "^2.6.1",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-react": "^7.1.0",
+    "husky": "^0.14.3",
+    "lint-staged": "^4.0.1",
+    "pre-commit": "1.2.2"
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint"
+    ]
+  }
+}
